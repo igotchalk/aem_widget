@@ -1,0 +1,25 @@
+## Steps to install 
+
+#* First follow instructions for Fortran compiler
+# Steps listed in issue https://github.com/simpeg/simpegEM1D/issues/28
+
+#Create env with python < 3.9
+conda create -n test_simpeg3 python=3.6
+
+#Activate environment
+conda activate test_simpeg3
+
+#Install SimPEG=0.13.1
+conda install -c conda-forge simpeg=0.13.1 -n test_simpeg3
+
+#Install scipy < 1.5.0
+pip install scipy==1.4.1
+
+#Git clone simpegEM1D
+#git clone https://github.com/emsig/empymod.git
+git clone https://github.com/simpeg/simpegEM1D.git
+
+#Local install simpegEM1D
+...\git\simpegEM1D>python setup.py install
+
+#Test it out
