@@ -6,9 +6,12 @@ dependencies:
   - pip=20.3.1
   - python=3.6
   - SimPEG=0.13.1
+  - jupyterlab
+  - ipywidgets
   - pandas
   - ipykernel
   - pip:
     - scipy==1.4.1
     - git+https://github.com/simpeg/simpegEM1D.git@master
+    - nbinteract
 prefix: C:\Users\Ian.Gottschalk\Miniconda3\envs\aemwidget_env
