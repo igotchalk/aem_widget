@@ -6,6 +6,8 @@ dependencies:
   - pip=20.3.1
   - python=3.6
   - SimPEG=0.13.1
+  - jupyterlab
+  - ipywidgets
   - pandas
   - ipykernel
   - pip:
